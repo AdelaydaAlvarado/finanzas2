@@ -20,7 +20,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'REGISTRO',
+          'Registro',
           style: TextStyle(
             fontSize: 24.0,
             fontWeight: FontWeight.bold,
@@ -132,7 +132,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         print('Error en el registro. Verifica tus datos.');
       }
     } catch (e) {
-      print('Error durante la inserción en la base de datos: $e');
+      print('Error durante la insercción en la base de datos: $e');
     }
   }
 }
