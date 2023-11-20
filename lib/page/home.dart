@@ -6,8 +6,8 @@ void main() {
   runApp(MaterialApp(
     home: HomeScreen(),
     theme: ThemeData(
-      primaryColor: Colors.blue, // Cambia a tu color primario preferido
-      hintColor: Colors.yellow, // Cambia a tu color secundario preferido
+      primaryColor: Colors.pinkAccent, // Cambia a tu color primario preferido
+      hintColor: Colors.blueAccent, // Cambia a tu color secundario preferido
       backgroundColor: Colors.white, // Cambia al color de fondo deseado
     ),
   ));
@@ -150,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     if (_amountController.text.isNotEmpty) {
                       _showTransactionForm(context, isExpense: true);
                     } else {
-                      _showSnackbar(context, 'Ingresa un monto primario');
+                      _showSnackbar(context, 'Ingrese un monto primario');
                     }
                   },
                   style: ElevatedButton.styleFrom(
@@ -166,7 +166,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     if (_amountController.text.isNotEmpty) {
                       _showTransactionForm(context, isExpense: false);
                     } else {
-                      _showSnackbar(context, 'Ingresa un monto primario');
+                      _showSnackbar(context, 'Ingrese un monto primario');
                     }
                   },
                   style: ElevatedButton.styleFrom(

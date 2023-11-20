@@ -13,7 +13,7 @@ class _IngresosFormState extends State<IngresosForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Agregar Ingreso'),
+        title: Text('Agregar ingreso'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -63,7 +63,7 @@ class _IngresosFormState extends State<IngresosForm> {
               },
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10.0),
+                  borderRadius: BorderRadius.circular(11.0),
                 ),
               ),
               child: Text('Guardar'),

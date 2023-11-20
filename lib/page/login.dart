@@ -24,8 +24,9 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('INICIAR '),
-        automaticallyImplyLeading: false, // Quitar la flecha de retroceso
+        title: Text('Iniciar '),
+        automaticallyImplyLeading: false,
+         // Quitar la flecha de retroceso
       ),
       body: Container(
         decoration: BoxDecoration(
