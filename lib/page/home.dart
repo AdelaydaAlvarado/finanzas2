@@ -6,9 +6,9 @@ void main() {
   runApp(MaterialApp(
     home: HomeScreen(),
     theme: ThemeData(
-      primaryColor: Colors.pinkAccent, // Cambia a tu color primario preferido
-      hintColor: Colors.blueAccent, // Cambia a tu color secundario preferido
-      backgroundColor: Colors.white, // Cambia al color de fondo deseado
+      primaryColor: const Color.fromARGB(255, 214, 36, 96), // Cambia a tu color primario preferido
+      hintColor: const Color.fromARGB(255, 57, 114, 212), // Cambia a tu color secundario preferido
+      backgroundColor: const Color.fromARGB(255, 161, 58, 58), // Cambia al color de fondo deseado
     ),
   ));
 }
@@ -170,7 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     }
                   },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.blue, // Cambia al color deseado
+                    primary: const Color.fromARGB(255, 54, 147, 223), // Cambia al color deseado
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
@@ -246,7 +246,7 @@ class _GastosFormState extends State<GastosForm> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Gasto'),
-        backgroundColor: Colors.blue, // Cambia al color deseado
+        backgroundColor: const Color.fromARGB(255, 3, 42, 73), // Cambia al color deseado
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
